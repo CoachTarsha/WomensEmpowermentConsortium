@@ -1,0 +1,82 @@
+@charset "utf-8";
+ 
+ html, body {
+ margin: 0;
+ padding: 0;
+ border-top: 0;
+ color: #000;
+ background: #faf2e4;
+ background-image:url('../images/rockwoman.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ }
+ 
+ html, body, p, th, td, li, dd, dt {
+ 	font-family: 'Lato', sans-serif;
+ }
+ 
+ h1 { 
+ 	font-size: 2em; 
+ 	font-family: 'Lato', sans-serif;
+	color: sienna;
+}
+ h2 { font-size: 1.5em; font-family: 'Lato', sans-serif;
+	color: sienna;}
+ h3 { font-size: 1.2em ;font-family: 'Lato', sans-serif;
+	color: sienna; }
+ h4 { font-size: 1.0em; font-family: 'Lato', sans-serif;
+	color: sienna;}
+ h5 { font-size: 0.9em; font-family: 'Lato', sans-serif;
+	color: sienna;}
+ h6 { font-size: 0.8em; font-family: 'Lato', sans-serif;
+	color: sienna;}
+ 
+ 
+
+nav{
+	background-color: #000000;
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li{
+	display:inline-block;
+	padding: 8px 16px;
+}
+
+nav ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.info{
+	background-color: #dcdcdc;
+	height: 800px;
+	margin-top: 500px;
+	width: 100%; 
+}
+
+.center {
+  display: block;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.contentbox{
+	background-color: #fff;
+	border-top: 15px solid #000000;
+	border-bottom: 15px solid #000000;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+	margin: 5% 20%;
+	padding: 50px 30px;
+	position: absolute;
+	top: 400px;
+	width: 60%; 	
+}
+  
